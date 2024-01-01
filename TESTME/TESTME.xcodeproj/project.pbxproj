@@ -15,6 +15,7 @@
 		954E412B2B437ADA00A2986F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954E41292B437ADA00A2986F /* LaunchScreen.storyboard */; };
 		954E41342B437B0F00A2986F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E41332B437B0F00A2986F /* HomeViewController.swift */; };
 		954E41372B437B1F00A2986F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E41362B437B1F00A2986F /* LoginViewController.swift */; };
+		954E413F2B43814B00A2986F /* Authentication in Frameworks */ = {isa = PBXBuildFile; productRef = 954E413E2B43814B00A2986F /* Authentication */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		954E412C2B437ADA00A2986F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		954E41332B437B0F00A2986F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = TESTME/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		954E41362B437B1F00A2986F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		954E41382B437DE700A2986F /* TestMe */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TestMe; path = TESTME/TestMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954E413F2B43814B00A2986F /* Authentication in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +47,10 @@
 		954E41122B437AD900A2986F = {
 			isa = PBXGroup;
 			children = (
+				954E41382B437DE700A2986F /* TestMe */,
 				954E411D2B437AD900A2986F /* TESTME */,
 				954E411C2B437AD900A2986F /* Products */,
+				954E41392B437E3600A2986F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +94,13 @@
 			path = Login1;
 			sourceTree = "<group>";
 		};
+		954E41392B437E3600A2986F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,6 +117,9 @@
 			dependencies = (
 			);
 			name = TESTME;
+			packageProductDependencies = (
+				954E413E2B43814B00A2986F /* Authentication */,
+			);
 			productName = TESTME;
 			productReference = 954E411B2B437AD900A2986F /* TESTME.app */;
 			productType = "com.apple.product-type.application";
@@ -387,6 +402,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		954E413E2B43814B00A2986F /* Authentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Authentication;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 954E41132B437AD900A2986F /* Project object */;
 }
