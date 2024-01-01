@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				954E41352B437B1700A2986F /* Login1 */,
-				954E41322B437AF500A2986F /* Home */,
+				954E41322B437AF500A2986F /* HomeS */,
 				954E411E2B437AD900A2986F /* AppDelegate.swift */,
 				954E41202B437AD900A2986F /* SceneDelegate.swift */,
 				954E41222B437AD900A2986F /* ViewController.swift */,
@@ -73,12 +73,12 @@
 			path = TESTME;
 			sourceTree = "<group>";
 		};
-		954E41322B437AF500A2986F /* Home */ = {
+		954E41322B437AF500A2986F /* HomeS */ = {
 			isa = PBXGroup;
 			children = (
 				954E41332B437B0F00A2986F /* HomeViewController.swift */,
 			);
-			path = Home;
+			path = HomeS;
 			sourceTree = "<group>";
 		};
 		954E41352B437B1700A2986F /* Login1 */ = {
