@@ -60,7 +60,7 @@
 		954E411D2B437AD900A2986F /* TESTME */ = {
 			isa = PBXGroup;
 			children = (
-				954E41352B437B1700A2986F /* Login */,
+				954E41352B437B1700A2986F /* Login1 */,
 				954E41322B437AF500A2986F /* HomeS */,
 				954E411E2B437AD900A2986F /* AppDelegate.swift */,
 				954E41202B437AD900A2986F /* SceneDelegate.swift */,
@@ -81,12 +81,12 @@
 			path = HomeS;
 			sourceTree = "<group>";
 		};
-		954E41352B437B1700A2986F /* Login */ = {
+		954E41352B437B1700A2986F /* Login1 */ = {
 			isa = PBXGroup;
 			children = (
 				954E41362B437B1F00A2986F /* LoginViewController.swift */,
 			);
-			path = Login;
+			path = Login1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
